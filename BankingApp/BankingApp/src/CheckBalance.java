@@ -31,7 +31,7 @@ public class CheckBalance extends JFrame {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // Establish a connection to the database
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/banking_system", "root", "baller6969");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/banking_system", "root", "(your sql password)");
 
             String query = "SELECT balance FROM users WHERE username = ?";
             pst = connection.prepareStatement(query);
