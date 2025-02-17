@@ -63,7 +63,7 @@ public class Settings extends JFrame implements ActionListener {
     private void connectToDatabase() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/banking_system", "root", "baller6969");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/banking_system", "root", "(your sql password)");
         } catch (Exception ex) {
             ex.printStackTrace();
             JOptionPane.showMessageDialog(this, "Database connection failed.");
