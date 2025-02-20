@@ -9,6 +9,6 @@ The **Online Banking System** is a simple Java-based GUI application that allows
 - **User Login:** Existing users can log in using their credentials.  
 - **Balance Inquiry:** Displays the user's current account balance after login.  
 
-This project serves as a foundation for expanding into a fully functional banking system with additional features like **deposit, withdrawal, transaction history, and database integration**.  
+This project serves as a foundation for expanding into a fully functional banking system with additional features like deposit, withdrawal, transaction history, and database integration.  
 
 
